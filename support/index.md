@@ -1,6 +1,6 @@
 ---
 layout: default
-title: App Name - Support
+title: iPlane - Support
 ---
 ### Support
 

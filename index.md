@@ -1,11 +1,11 @@
 ---
 layout: home
-title: App Name - A great app to do something
+title: iPlane - Something I still have to invent
 js:
-- //ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js
+- //ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
 - /assets/jquery.cycle.lite.min.js
 - /assets/home.js
 ---
-App Name lets you do something better than other apps.
+iPlane is an app so futuristic that I still didn't even develop it. Mind-blowing, uh?
 
 <p class="app-store">{{ site.appstore }}</p>

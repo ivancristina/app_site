@@ -1,10 +1,10 @@
 div.iphone {
   @include box-sizing(border-box);
   background: url(/assets/iphone.svg) no-repeat;
-  background-size: 387px 804px;
-  width: 387px;
-  height: 804px;
-  padding: 121px 0 0 36px;
+  background-size: 384px 760px;
+  width: 384px;
+  height: 760px;
+  padding: 96px 0 0 32px;
 
   div, img {
     background: #000;

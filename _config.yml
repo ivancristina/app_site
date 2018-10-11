@@ -1,26 +1,43 @@
 # General
-name: App Name
-tagline: A great app to do something
+name: iPlane
+tagline: Something I still have to invent
 
 # Jekyll
+highlighter: rouge
+permalink: pretty
+
 exclude: ['Rakefile']
-markdown: redcarpet
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+start_line: 1
+
+plugins:
+  - rake
+  - rsync
 
 # App Store
 appstore_url: https://itunes.apple.com/app/id123456789
 appstore: <a href="https://itunes.apple.com/app/id123456789" class="app-store" rel="external nofollow"><img src="/assets/app-store.svg" alt="Download on the App Store"></a>
 appstore_white: <a href="https://itunes.apple.com/app/id123456789" class="app-store" rel="external nofollow"><img src="/assets/app-store-white.svg" alt="Download on the App Store"></a>
 
-# Screenshots
+# Images
 screenshots:
 - screenshot01
 - screenshot02
 
+icon: icon.png
+
 # Company Info
-company: Company Name
-company_website: http://companyname.com
+company: Ivan Cristina
+company_website: https://ivancristina.it
 
 # Emails
-email_press: press@appname.com
-email_contact: contact@appname.com
-email_support: support@appname.com
+email_press: ivancristina5@gmail.com
+email_contact: ivancristina5@gmail.com
+email_support: ivancristina5@gmail.com

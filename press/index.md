@@ -1,6 +1,6 @@
 ---
 layout: default
-title: App Name - Press
+title: iPlane - Press
 ---
 ### Press
 
@@ -12,4 +12,4 @@ Want to review {{ site.name }} and need a promo code? Just ask! [Send us an emai
 
 The {{ site.name }} press kit includes the app icon, iPhone screenshots, iPad screenshots, and {{ site.company }} logo.
 
-**[Download Press Kit](https://s3.amazonaws.com/appname.com/press_kit.zip)**
+**[Download Press Kit](https://ivancristina.github.io/pug)**
