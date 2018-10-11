@@ -135,7 +135,6 @@ h4 {
 
 body > header {
   background-color: #ff9500;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff9500), color-stop(100%, #ff5e3a));
   background-image: -webkit-linear-gradient(#ff9500, #ff5e3a);
   background-image: linear-gradient(#ff9500, #ff5e3a);
   color: #fff;
@@ -153,7 +152,36 @@ body > header {
     height: 280px; }
     body > header a.icon img {
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      border-radius: 24%; }
+  body > header .icon a:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 100%;
+    -webkit-transform: scaleX(2) scaleY(1.05);
+    transform: scaleX(2) scaleY(1.05);
+    clip: rect(0, 66px, 100px, 34px);
+    z-index: -1; }
+  body > header .icon a:before, body > header .icon a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: 100%;
+    -webkit-transform: scaleX(2) scaleY(1.05);
+    transform: scaleX(2) scaleY(1.05);
+    clip: rect(0, 66px, 100px, 34px);
+    z-index: -1; }
+  body > header .icon a:after {
+    -webkit-transform: scaleY(2) scaleX(1.05) rotate(90deg); }
   body > header div.grater, body > header div.grater div {
     margin-bottom: 0; }
   body > header p {
@@ -219,11 +247,11 @@ div.iphone {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  background: url(/jekyll_app_site/assets/iphone.svg) no-repeat;
-  background-size: 387px 804px;
-  width: 387px;
-  height: 804px;
-  padding: 121px 0 0 36px; }
+  background: url(/assets/iphone.svg) no-repeat;
+  background-size: 384px 760px;
+  width: 384px;
+  height: 760px;
+  padding: 96px 0 0 32px; }
   div.iphone div, div.iphone img {
     background: #000;
     width: 320px;
@@ -256,3 +284,5 @@ a.app-store {
 @media all and (max-width: 660px) {
   p.app-store {
     text-align: center; } }
+
+/*# sourceMappingURL=application.css.map */
